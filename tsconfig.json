@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "CommonJS",
+    "esModuleInterop": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    //  "strictNullChecks": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true, // 允许使用es6装饰器
+    "forceConsistentCasingInFileNames": true,
+
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "jsx": "react",
+    "target": "es2017",
+    "lib": [
+      "dom",
+      "ES2019.Symbol",
+      "ES2020.Symbol.WellKnown",
+      "es2017.object"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/windows/main-window/**/*"
+  ]
+}

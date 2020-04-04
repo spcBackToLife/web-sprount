@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@jupiter-app"
+  ],
+  // eslint-plugin-import 的规则现在有 bug，可以临时加上：
+  "rules": {
+    "import/extensions": [
+      "off"
+    ],
+    "import/named": "off"
+  }
+}

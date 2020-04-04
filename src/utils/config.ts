@@ -1,0 +1,7 @@
+export const PROCESS_ENV = {
+  APP_CWD: 'APP_CWD', // work directory
+  APP_DEV: 'APP_DEV', //  dev environment
+  APP_PID: 'APP_PID',
+  APP_NODE_CACHED_DATA_DIR: 'APP_NODE_CACHED_DATA_DIR',
+  ELECTRON_RUN_AS_NODE: 'ELECTRON_RUN_AS_NODE'
+}
